@@ -31,8 +31,8 @@ class TestTriangles(unittest.TestCase):
         self.assertEqual(classifyTriangle(12,12,12),'Equilateral','12,12,12 should be equilateral')
     
     def testIsoscelesTriangles(self):
-        self.assertEqual(classifyTriangle(4,4,3),'Isosceles','4,4,3 should be isoceles')
-        self.assertEqual(classifyTriangle(9,10,10),'Isosceles','9,10,10 should be isoceles')
+        self.assertEqual(classifyTriangle(4,4,3),'Isosceles','4,4,3 should be isosceles')
+        self.assertEqual(classifyTriangle(9,10,10),'Isosceles','9,10,10 should be isosceles')
 
     def testScaleneTriangles(self):
         self.assertEqual(classifyTriangle(5,6,8),'Scalene','5,6,8 should be scalene')
